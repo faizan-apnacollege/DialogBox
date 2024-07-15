@@ -1,26 +1,20 @@
 import React, { useState } from 'react';
-import { Button } from '@mui/material';
-import SessionDialog from './SessionDialog';
-
+import { Button, colors } from '@mui/material';
+import Dashboard from './components/Dashboard';
+import './index.css';
+import LoginForm from './components/LoginForm';
+import SignupForm from './components/SignUpForm';
 
 const App = () => {
-  const [open, setOpen] = useState(false);
-
-  const handleOpen = () => {
-    setOpen(true);
-  };
-
-  const handleClose = () => {
-    setOpen(false);
-  };
 
   return (
     <div>
-      <Button variant="contained" color="primary" onClick={handleOpen}>
-        Open Session Dialog
-      </Button>
-      <SessionDialog open={open} onClose={handleClose} />
-
+      <div style={{ backgroundColor: '#fff' }}>
+        {/* <div> */}
+        {/* <Dashboard /> */}
+        {/* <LoginForm /> */}
+        <SignupForm />
+      </div>
     </div>
   );
 };

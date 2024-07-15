@@ -1,0 +1,12 @@
+/* import FullCalendar from '@fullcalendar/react';
+import dayGridPlugin from '@fullcalendar/daygrid';
+import timeGridPlugin from '@fullcalendar/timegrid';
+import interectionPlugin from '@fullcalendar/interaction';
+
+
+
+
+<FullCalendar
+        plugins={[dayGridPlugin, timeGridPlugin, interectionPlugin]}
+        initialView={'dayGridMonth'}
+      /> */
